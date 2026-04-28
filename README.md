@@ -1,103 +1,145 @@
-# PanicTranslate
+# PanicTranslate 🚨
 
-Convert chaotic, panicked messages into clear, structured emergency reports for faster and safer response.
+**Turn chaotic panic messages into structured emergency intelligence.**
 
-## Overview
+PanicTranslate converts emotional, unstructured distress messages into clear, actionable reports that responders can actually use.
 
-PanicTranslate is an AI-powered tool that transforms unstructured panic messages into structured emergency reports.
+---
 
-It helps:
-- Extract critical information
-- Reduce confusion
-- Enable faster decision-making in emergencies
+## 🚨 Why This Exists
 
-## Features
+In emergencies, people don’t speak clearly.  
+They panic, ramble, and miss critical details.
 
-- Fact Extraction
-  - Identifies incident type, location, victims, and hazards
+That delay costs time. Sometimes lives.
 
-- Structured Triage
-  - Converts raw input into a standardized format
+**PanicTranslate fixes that gap.**
 
-- Severity Classification
-  - Rates incidents on a 1–5 scale
+---
 
-- Responder Briefing
-  - Generates a concise and actionable summary
+## ⚡ What It Does
 
-- Safety-Oriented Design
-  - Highlights critical risks like electrical hazards
+Paste a chaotic message → Get a structured emergency report instantly.
 
-## How It Works
+### ✔ Extracts Critical Data
+- Incident type (fire, medical, electrical, etc.)
+- Location
+- Victims involved
+- Immediate threats
 
-1. User enters a panic message
-2. System processes natural language
-3. Extracts key details
-4. Assigns severity level
-5. Generates structured report and briefing
+### ✔ Assigns Severity (1–5)
+- 1 = Minor  
+- 5 = Life-threatening  
 
-## Example
+### ✔ Generates Responder Briefing
+- Clean, concise, decision-ready summary
 
-Input:
-Oh my god help!! Room 317 there’s water leaking and sparks coming from the light!!
+### ✔ Highlights Hidden Risks
+- Electrical hazards  
+- Fire escalation  
+- Medical urgency  
+
+---
+
+## 🧠 Example
+
+### Input (Realistic Panic Message)
+Oh my god help!! Room 317 there’s water leaking and sparks coming from the light!!  
 My friend got shocked and he’s not moving properly please hurry!!
 
-Output:
+---
 
-Structured Facts:
-- Incident Type: Electrical shock, water leak, electrical hazard
-- Location: Room 317
-- Number of People Affected: 1
-- Severity: 5 (Life-threatening)
-- Immediate Needs: Medical assistance, power shut-off, water control
+### Output (Structured)
 
-Responder Briefing:
-Emergency medical and electrical teams are required in Room 317 for an electrical shock victim and an active water leak with sparks. Immediate intervention required.
+**Incident Type:** Electrical shock + water leak  
+**Location:** Room 317  
+**People Affected:** 1  
+**Severity:** 5 (Life-threatening)  
+**Hazards:** Active electrical + water interaction  
 
-## Limitations
+**Immediate Needs:**
+- Medical response
+- Power shutdown
+- Area isolation
 
-- Not a replacement for emergency services
-- May misinterpret unclear or incomplete input
-- Requires human verification
+---
 
-Always confirm critical details before taking action.
+### 🚑 Responder Briefing
+Electrical shock victim in Room 317 with active water leakage and visible sparking. Immediate medical and electrical intervention required. High-risk environment.
 
-## Future Improvements
+---
 
-- Confidence scoring for extracted data
-- Priority-based dispatch system
-- Multi-language support
-- Voice input support
-- Real-time caller guidance
+## 🏗️ How It Works
 
-## Tech Stack
+1. User inputs panic message  
+2. NLP extracts key signals  
+3. Data is structured into categories  
+4. Severity is calculated  
+5. Final report + briefing is generated  
 
-- Frontend: React / Next.js
-- Backend: Node.js
-- AI: LLM-based parsing
-- Deployment: Vercel
+---
 
-## Getting Started
+## ⚠️ Limitations (Read This)
 
+- Not a replacement for emergency services  
+- Not 100% accurate (LLM-based)  
+- Depends on input clarity  
+
+Always verify critical details before acting.
+
+---
+
+## 🔮 Roadmap
+
+- Confidence scores per extracted field  
+- Multi-language support  
+- Voice-to-text panic input  
+- Real-time dispatcher mode  
+- Auto escalation suggestions  
+
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: React / Next.js  
+- Backend: Node.js  
+- AI Layer: LLM-based parsing  
+- Deployment: Vercel  
+
+---
+
+## 🚀 Run Locally
+
+```bash
 git clone https://github.com/your-username/panictranslate.git
 cd panictranslate
 npm install
 npm run dev
+```
 
-## Demo
+---
+
+## 🌐 Live Demo
 
 https://panictranslate-sc.vercel.app
 
-## Contributing
+---
 
-Pull requests are welcome. For major changes, open an issue first.
+## 🤝 Contributing
 
-## License
+Pull requests are welcome.  
+For major changes, open an issue first.
 
-MIT License
+---
 
-## Note
+## 📄 License
 
-This is a decision-support tool, not an automated authority.
+MIT License — free to use, modify, and distribute.
+
+---
+
+## ⚠️ Final Note
+
+This is a decision-support tool, not an authority.
 
 Always validate outputs before acting.
